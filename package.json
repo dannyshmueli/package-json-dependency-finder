@@ -16,6 +16,10 @@
     "node": ">=4.0.0",
     "npm": "^3.10.8"
   },
-  "author": "",
+  "author": "Danny Shmueli",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dannyshmueli/package-json-dependency-finder.git"
+  },
   "license": "ISC"
 }
