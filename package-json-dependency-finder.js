@@ -11,7 +11,7 @@ var readJson = require('read-package-json');
 
 var args = process.argv.slice(2);
 if (args.length != 2){
-    console.log("usage: node index.js /path/to/package.json dependency-to-find");
+    console.log("usage: node package-json-dependency-finder.js /path/to/package.json dependency-to-find");
     return;
 }
 
