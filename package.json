@@ -1,0 +1,21 @@
+{
+  "name": "package-json-analyzer",
+  "version": "0.0.1",
+  "description": "Analyzes package.json and finds which package depends on specific dependency",
+  "main": "package-json-dependency-finder.js",
+  "dependencies": {
+    "async": "^2.1.4",
+    "lodash": "^4.17.4",
+    "npm-remote-ls": "^1.3.2",
+    "read-package-json": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node package-json-dependency-finder.js"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": "^3.10.8"
+  },
+  "author": "",
+  "license": "ISC"
+}
